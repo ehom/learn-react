@@ -37,9 +37,12 @@
       }
       
       render() {
+        var msg = this.state.checked ? "checked" : "not checked"
+        
         return (
           <div>
             <input type="checkbox" onChange={this.handleCheck}/>
+            <p>This box is {msg}.</p>
           </div>
         )
       }
