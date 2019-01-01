@@ -1,0 +1,11 @@
+body {
+  background: DarkBlue;
+  font-family: Inconsolata, sans-serif;
+  font-size: 14pt;
+}
+
+.display-panel {
+  background: Black;
+  color: LightGreen;
+  font-size: 24pt;
+}
