@@ -21,10 +21,28 @@
       }
     }
     
+    class Checkbox extends React.Component {
+      render() {
+        return (
+          <div>
+            <input type="checkbox" />
+          </div>
+        )
+      }
+    }
+    
+    /*
     ReactDOM.render(
       <Hello/>,
       document.getElementById('react-container')
     )
+    */
+    
+    ReactDOM.render(
+      <Checkbox />,
+      document.getElementById('react-container')
+    )
+    
   </script>
   
 </body>
